@@ -187,7 +187,7 @@
 .a15 { left: 5%; transform: scale(1); animation: slideUp 6.1s linear 1, sideSway 3s ease-in-out 5 alternate; animation-delay: 1.6s; }
 
 .a16 { left: 65%; transform: scale(0.7); animation: slideUp 5.4s linear 1, sideSway 2.5s ease-in-out 4 alternate; animation-delay: 1.7s; }
-.a17 { left: 85%; transform: scale(0.9); animation: slideUp 4.9s linear 1, sideSway 3s ease-in-out 5 alternate; animation-delay: 1.8s; }
+.a17 { left: 76%; transform: scale(0.5); animation: slideUp 3.9s linear 1, sideSway 3s ease-in-out 2 alternate; animation-delay: 1.8s; }
 .a18 { left: 12%; transform: scale(0.5); animation: slideUp 6.6s linear 1, sideSway 2.5s ease-in-out 4 alternate; animation-delay: 1.9s; }
 
 @-webkit-keyframes slideUp {
