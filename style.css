@@ -7,7 +7,7 @@
   border-bottom-right-radius: 6px;
   margin-left: auto;
   margin-right: auto;
-  top: 600px;
+  top: 250px;
   background-color: #f9c5c8;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
@@ -80,19 +80,23 @@
 
 .words.line1 {
   top: 15%;
-  width: 50%;
+  width: 20%;
   height: 7%;
 }
 
 .words.line2 {
   top: 30%;
-  width: 80%;
+  font-size: small;
 }
 
 .words.line3 {
   top: 50%;
+  font-size: small;
 }
 
+.words.line4 {
+  top: 70%;
+}
 
 .open .flap {
   transform: rotateX(180deg);
@@ -113,7 +117,7 @@
 }
 
 .open .letter {
-  transform: translateY(-80px);
+  transform: translateY(-60px);
   transition: transform 0.4s 0.6s ease, z-index 0.6s;
   z-index: 2;
 }
@@ -224,19 +228,8 @@ body {
 }
 
 .envlope-wrapper {
-  height: auto; /* remove fixed height */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px; /* space above wrapper if needed */
+  height: 450px;
 }
-
-#envelope {
-  margin: 75% auto 20px auto; /* reset top margin and add bottom margin */
-  top: 0; /* reset top offset */
-  position: relative;
-}
-
 
 .reset {
   text-align: center;
@@ -268,7 +261,9 @@ body {
 }
 
 .line1 {
-
+  width: 20%;
+  top: 15%;
+  height: 7%;
   background-color: #fdb7ba;
   color: b;
 }
